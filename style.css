@@ -47,7 +47,7 @@ img {
 .nyt-art-header-subscribe {
     font-size: 12px;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: lowercase;
     color: black;
 }
@@ -59,4 +59,13 @@ button {
     border-radius: 5px;
     background-color: black;
     color: #ffffff;
+}
+
+.nyt-art-main {
+    display: block;
+    background-color: #f7f7f7;
+    border-top: 3px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    height: 300px;
+    width: 100%;
 }
