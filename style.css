@@ -1,0 +1,62 @@
+body {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin-top: -10px;
+}
+
+.nyt-art-header-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.nyt-art-header-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+}
+
+img {
+    height: 15px;
+    width: 15px;
+    margin-right: 20px;
+}
+
+.nyt-art-nav-bar-left>a {
+    text-decoration: none;
+    color: black;
+}
+
+.nyt-art-header-newyork {
+    font-style: italic;
+    font-weight: bolder;
+    font-family: serif;
+    font-size: 16px;
+    text-align: center;
+    font-stretch: 100%;
+}
+
+.nyt-art-header-space>span {
+    font-size: 14.25px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nyt-art-header-subscribe {
+    font-size: 12px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: lowercase;
+    color: black;
+}
+
+button {
+    height: 35px;
+    width: 70px;
+    border: 0;
+    border-radius: 5px;
+    background-color: black;
+    color: #ffffff;
+}
