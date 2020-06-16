@@ -109,10 +109,6 @@ section {
   display: block;
 }
 
-body {
-/*  padding-top: 65px; */
-}
-
 ol,
 ul {
   list-style: none;
@@ -180,6 +176,7 @@ small {
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
   padding: 10px;
+  border-bottom: 4px solid hsl(0, 0, 0.89);
 /*  margin-bottom: 30px; */
 }
 
@@ -201,8 +198,7 @@ small {
 
 .ny-logo {
   width: 20%;
-  height: auto;
-  
+  height: auto;  
 }
 
 .nyt-bar-right-grid {
@@ -255,12 +251,12 @@ small {
 }
 
 .nyt-art-section-container-title {
-    border-top: 1px solid rgb(179, 172, 172);
-    border-bottom: 1px solid rgb(51, 51, 51);
-    margin-left: 0;
-    margin-right: 0;
-    padding-top: 65px;
-  }
+  /* border-top: 1px solid rgb(179, 172, 172); */
+  /* border-top: 1px solid rgb(51, 51, 51); */
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 65px;
+}
 
 .nyt-art-section-container {
   border-top: 1px solid rgb(179, 172, 172);
@@ -281,30 +277,37 @@ small {
   font-family: "Brush Script MT", Arial;
   font-size: 50px;
 }
-/*
+
+/* Article */
+
+#first-image-container {
+  text-align: center;
+}
 
 #first-image {
   width: 65%;
   height: auto;
-  align-content: center;
 }
 
-.Rick {
-  display: inline;
+.first-image-caption {
+  text-align: left;  
 }
-
-.container {
-  text-align: center;
-}
-
-
 
 .nyt-art-containter-article {
-  display: block;
-  width: 600px;
-  height: 100%;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-gap: 10px;
+  padding: 10px;
 }
+
+.article-column {
+  display: grid;
+  grid-column-end: 2;
+}
+
+
+
+/*
 
 .nyt-art-containter-article>p {
   text-align: left;
@@ -415,5 +418,15 @@ small {
 .img-grid {
   width: 224px;
   height: 150px;
+}
+*/
+
+/* .Rick {
+  display: inline;
+}*/
+
+/* This class is now obsolete 
+.container {
+  text-align: center;
 }
 */
