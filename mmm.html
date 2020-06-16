@@ -1,0 +1,43 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+    /* Navigation Bar */
+    
+    nav {
+        display: flex;
+        position: fixed;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 15px 5px 15px;
+        z-index: 1;
+        background-color: white;
+    }
+    
+    .nav-left,
+    .nav-mid,
+    .nav-right {
+        padding-top: 7px;
+    }
+</style>
+
+<nav>
+    <div class="nav-left">
+        <a href="#"><img class="menu-bar" alt="menu-bars" src="images/menu-bar.png" /></a>
+        <a href="#"><img class="search-icon" alt="search-icon" src="images/search-icon.png" /></a>
+        <p>
+            <a href="#"><strong>SPACE & COSMOS</strong></a>
+        </p>
+    </div>
+    <div class="nav-mid">
+        <a href="#"><img class="nyt-logo" alt="menu-bars" src="images/nyt-logo.png" /></a>
+    </div>
+    <div class="nav-right">
+        <button class="subscribe">SUBSCRIBE NOW</button>
+        <button class="subscribe">LOG IN</button>
+    </div>
+</nav>
