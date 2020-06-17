@@ -497,6 +497,34 @@
         margin-bottom: 50px;
     }
     
+    #aside-box {
+        float: right;
+        width: 300px;
+        text-align: left;
+    }
+
+    .aside-box-title {
+        border-bottom: #E2E2E2;
+        text-align: left;
+    }
+
+    #box-title {
+        border-bottom: #E2E2E2;
+        text-align: left;
+        font-size: 24px;
+    }
+
+    #aside-box a {
+        color: #333333;
+        text-decoration: none;
+    }
+
+    .aside-pics {
+        width: 75px;
+        height: 75px;
+    }
+
+
     .nyt-grid-end {
         display: flex;
         flex-wrap: wrap;
