@@ -161,13 +161,16 @@
     }
     
     .nyt-art-header-border {
-        position: relative;
         border-bottom: 1px solid #e2e2e2;
+        position: fixed;
+        width: 100%;
+        height: auto;
     }
     
     .nyt-art-header-container {
         display: grid;
-        max-width: 1600px;
+        /* max-width: 1600px; */
+        width: 100%;
         margin: 0 auto;
         grid-template-columns: auto auto auto;
         grid-gap: 10px;
@@ -327,6 +330,29 @@
         height: 100%;
         width: 100%;
     }
+    
+    /* .article-info {
+      display: grid;
+      grid-template-columns: "auto auto";
+    } */
+
+    .article-author {
+      /* display: grid;
+      grid-column-start: span 2; */
+      border: 1px solid black;
+    }
+
+    .article-date {
+      display: flex;
+      border: 1px solid black;
+
+    }
+
+    .ff6 {
+      display: flex;
+      border: 1px solid black;
+
+    } 
     
     .nyt-art-note-container {
         display: block;
