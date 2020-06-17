@@ -331,28 +331,76 @@
         width: 100%;
     }
     
-    /* .article-info {
-      display: grid;
-      grid-template-columns: "auto auto";
-    } */
-
-    .article-author {
-      /* display: grid;
-      grid-column-start: span 2; */
-      border: 1px solid black;
+    .nyt-art-story {
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
-
-    .article-date {
-      display: flex;
-      border: 1px solid black;
-
+    
+    .nyt-art-story h3 {
+        font-family: helvetica, arial, sans-serif;
+        font-weight: 700;
+        color: #333;
+        text-size-adjust: 100%;
+        vertical-align: middle;
+        padding-top: 60px;
+        width: inherit;
     }
-
-    .ff6 {
-      display: flex;
-      border: 1px solid black;
-
-    } 
+    
+    .nyt-art-story p {
+        font-family: nyt-imperial, georgia, "times new roman", times, serif;
+        color: #333;
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        text-align: justify;
+        width: inherit;
+    }
+    
+    .nyt-art-social {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        width: inherit;
+    }
+    
+    .nyt-art-social time {
+        float: left;
+    }
+    
+    .nyt-art-icons {
+        margin-right: 35px;
+    }
+    
+    .nyt-art-icons button {
+        margin-right: 7px;
+        padding: 10px;
+        background-color: #eee;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .nyt-art-icons button:hover {
+        border: solid 1px #eee;
+        border-radius: 50%;
+        padding: 10px;
+        background-color: white;
+    }
+    
+    #nyt-art-msgbox {
+        font-size: 20px;
+    }
+    
+    #nyt-art-msg {
+        font-size: 10px;
+        position: relative;
+        right: 39px;
+        bottom: 5px;
+        font-weight: 900;
+    }
     
     .nyt-art-note-container {
         display: block;
