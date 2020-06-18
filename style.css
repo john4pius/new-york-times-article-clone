@@ -612,6 +612,8 @@ small {
     border-top: 1px solid rgb(0, 0, 0);
     padding-top: 20px;
     padding-left: 5px;
+    display: block;
+    margin-left: 30px;
 }
 
 iframe {
@@ -663,17 +665,44 @@ iframe {
     color: rgb(18, 18, 18);
 }
 
+.line-design {
+    font-size: 1.1rem;
+    line-height: 22px;
+    font-weight: 500;
+}
+
 .more-in-space-and-astronomy-title {
     text-decoration: none;
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-family: nyt-franklin, helvetica, arial, sans-serif
 }
 
 .nyt-popular {
-    text-decoration: none;
-    color: rgb(18, 18, 18);
-    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
     font-size: 1.1875rem;
     line-height: 1.4375rem;
+    color: rgb(18, 18, 18);
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
     font-weight: 500;
+    text-decoration: none;
+}
+
+.nyt-most-popular>div {
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nyt-art-footer-container::before {
+    background-color: #fff;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 2px solid #e2e2e2;
+    content: '';
+    display: block;
+    height: 1px;
+    margin-bottom: 10px;
 }
 
 .nyt-art-footer-container {
@@ -771,9 +800,9 @@ iframe {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     text-decoration: none;
     text-transform: capitalize;
-    width: 150px;
+    width: 200px;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 1000;
     height: 25px;
     line-height: 15px;
     padding-bottom: 0px;
@@ -791,6 +820,16 @@ iframe {
     line-height: 21px;
 }
 
+.nyt-art-special>a>img {
+    height: 15px;
+}
+
+.line {
+    margin: 2px 0px 0px;
+    padding: 10px 0px 0px;
+    border-top: 1px solid rgb(226, 226, 226)
+}
+
 .nyt-art-bottom-bar {
     display: block;
     border-top: solid 1px rgb(196, 188, 188);
@@ -798,6 +837,26 @@ iframe {
 
 .nyt-art-bottom-bar-con {
     max-width: 1200px;
+}
+
+.nyt-logo {
+    width: auto;
+    height: 25px;
+}
+
+.nyt-home-page {
+    display: float;
+    float: right;
+}
+
+.nyt-art-footer-link {
+    color: rgb(86, 123, 149);
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
 }
 
 .nyt-art-bottom-bar {
