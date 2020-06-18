@@ -39,7 +39,7 @@ small,
 strike,
 strong,
 sub,
-sup,
+gu sup,
 tt,
 
 /*  p {
@@ -149,7 +149,7 @@ small {
 
 /* HEADER*/
 
-.nyt-art-header {
+.-f-art-header {
     width: 100%;
     margin-top: -45px;
 }
@@ -205,6 +205,11 @@ small {
     text-decoration: none;
     color: black;
     font-family: georgia, "times new roman", times, serif;
+}
+
+.nyt-link {
+    text-decoration: underline;
+    color: #326891;
 }
 
 .nyt-art-header-newyork {
@@ -298,7 +303,7 @@ small {
     margin: 65px 0 30px;
 }
 
-.nyt-art-containter-article {
+.nyt-art-container-article {
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -314,14 +319,13 @@ small {
     margin: 0 auto;
 }
 
-.nyt-art-containter-article>div {
+.nyt-art-container-article>div {
     width: 600px;
     max-width: 600px;
-    padding: 30px 0 30px 0;
     margin-left: calc((100% - 600px) / 2);
 }
 
-.nyt-art-containter-article>div>p {
+.nyt-art-container-article>div>p {
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
@@ -349,8 +353,7 @@ small {
     max-width: 600px;
 }
 
-.nyt-art-telescope,
-.telescope {
+.nyt-art-telescope {
     display: flex;
     width: 720px;
     flex-direction: row;
@@ -358,6 +361,18 @@ small {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 16px;
+}
+
+.telescope>img {
+    width: 720px;
+    height: 481px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nyt-figcaption {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
 }
 
 .first-image-container {
@@ -475,15 +490,13 @@ small {
     width: 100%;
 }
 
-.nyt-art-article-header>h4 {
-    padding-top: 20px;
+.nyt-art-bold {
     text-align: left;
     font-size: 1.25rem;
     line-height: 1.5rem;
     font-weight: 700;
     font-style: normal;
     font-family: nyt-cheltenham, georgia, times new roman, times, serif;
-    margin-bottom: 2px;
 }
 
 .nyt-art-article-header>p {
