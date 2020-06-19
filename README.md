@@ -24,10 +24,6 @@
 - Linkedin (https://www.linkedin.com/in/john-pius-5447b353/)
 - Twitter (@John4pius)
 
-👤 **Enrique Ramirez Ramos**
-
-* Ahmed (https://github.com/nrqrmz)
-
 
 ## 🤝 Contributing
 
