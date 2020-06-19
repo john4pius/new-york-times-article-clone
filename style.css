@@ -124,7 +124,7 @@ table {
   padding: 0;
   border: 0;
   box-sizing: border-box;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 section {
@@ -250,9 +250,6 @@ small {
   display: block;
   height: 286px;
   width: 100%;
-  background-color: #f8f8f8;
-  margin: 43px auto;
-  width: 100%;
   background-color: rgb(247, 247, 247);
   border-bottom: 1px solid rgb(243, 243, 243);
   border-top: 1px solid rgb(243, 243, 243);
@@ -321,6 +318,11 @@ small {
   margin-left: calc((100% - 600px) / 2);
 }
 
+.nyt-art-bottom-bar > p {
+  font-family: inherit;
+  color: rgb(77, 73, 73);
+}
+
 .nyt-art-image-details,
 .nyt-art-image-details-2 {
   display: flex;
@@ -331,6 +333,22 @@ small {
 .nyt-art-image-details-2 {
   bottom: 270px;
 }
+
+.nyt-art-article-header > p {
+  text-align: left;
+  font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
+  color: gray;
+}
+
+.nyt-art-story p {
+  font-family: "nyt-imperial", georgia, "times new roman", times, serif;
+  color: #333;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  text-align: justify;
+  width: inherit;
+}
+
 .nyt-art-container-article > div > p {
   margin-top: 0;
   margin-left: 0;
@@ -428,15 +446,6 @@ small {
   color: #333;
 }
 
-.nyt-art-story p {
-  font-family: "nyt-imperial", georgia, "times new roman", times, serif;
-  color: #333;
-  font-size: 1.25rem;
-  line-height: 1.875rem;
-  text-align: justify;
-  width: inherit;
-}
-
 .nyt-art-social {
   display: flex;
   justify-content: space-between;
@@ -450,7 +459,6 @@ small {
   font-family: "nyt-franklin", helvetica, arial, sans-serif;
   font-weight: 500;
   color: #333;
-  margin-bottom: 1rem;
   font-size: 0.8125rem;
   line-height: 1rem;
   margin-bottom: 0;
@@ -531,12 +539,6 @@ small {
   font-weight: 700;
   font-style: normal;
   font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
-}
-
-.nyt-art-article-header > p {
-  text-align: left;
-  font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
-  color: gray;
 }
 
 .nyt-art-image-details > p,
@@ -884,11 +886,6 @@ iframe {
   justify-content: space-evenly;
   font-size: 14px;
   border-top: solid 1px rgb(196, 188, 188);
-}
-
-.nyt-art-bottom-bar > p {
-  font-family: inherit;
-  color: rgb(77, 73, 73);
 }
 
 .nyt-art-bottom-bar i {
