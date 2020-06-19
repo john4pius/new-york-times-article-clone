@@ -160,7 +160,7 @@ small {
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
     padding: 12px 15px 0;
-    border-bottom: 4px solid #000000;
+    border-bottom: 4px solid #f8f8f8;
 }
 
 .nyt-art-header-container>div {
@@ -326,6 +326,13 @@ small {
     max-width: 600px;
     margin-left: calc((100% - 600px) / 2);
 }
+
+
+/* .section-box {
+    width: 800px;
+    max-width: 800px;
+    margin-left: calc((100% - 600px) / 2);
+} */
 
 .nyt-art-container-article>div>p {
     margin-top: 0;
@@ -610,37 +617,6 @@ small {
     padding-bottom: 100px;
     justify-content: space-between;
     margin-top: 20px;
-}
-
-.aside-box-title {
-    border-bottom: #E2E2E2;
-    text-align: left;
-}
-
-.nyt-display {
-    display: inline-block;
-    vertical-align: top;
-}
-
-#box-title {
-    border-bottom: #E2E2E2;
-    text-align: left;
-    font-size: 24px;
-}
-
-.aside-box {
-    padding-left: 100px;
-    width: 400px;
-}
-
-.aside-box a {
-    color: #333333;
-    text-decoration: none;
-}
-
-.aside-pics {
-    width: 75px;
-    height: 75px;
 }
 
 .nyt-grid-end {
@@ -944,4 +920,8 @@ iframe {
 
 .displaynone {
     display: none;
+}
+
+.nyt-gap {
+    margin-left: 5px;
 }
