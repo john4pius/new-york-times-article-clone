@@ -75,7 +75,6 @@ video {
   vertical-align: baseline;
 }
 
-
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -113,7 +112,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 
 /* Custom */
 * {
